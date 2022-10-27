@@ -8,36 +8,65 @@ export default function Detalhes() {
         <View style={detalhes.roupa}>
 				<Image source={require("../../assets/roupa.png")} style={detalhes.roupa}/>
 			</View>
+
+            <View style={detalhes.ladonome}>
         <Text style={detalhes.nomeroupa}>
         Pijama Baby Doll
         </Text>
-
-        <View style={detalhes.ladolado}>
-        <Text style={detalhes.oferta}>
-        Oferta Relâmpago
-        </Text>
-        <Text style={detalhes.precoroupa}>
-        R$20,99
-        </Text>
-        </View>
-
-        <View style={detalhes.ladolado}>
         <Text style={detalhes.envio}>
         ENVIO NACIONAL
         </Text>
-        <Text style={detalhes.codroupa}>
-        COD: si2206084031375963
-        </Text>
         </View>
 
-        <Text style={detalhes.descricao}>
-        Tamanho: P, M, G, GG
-        Cor: preto, branco
+        <Text style={detalhes.tamanho}>
+        TAMANHO
         </Text>
 
+        <View style={detalhes.ladotamanho}>
+        <Text style={detalhes.descricao}>
+        P
+        </Text>
+
+        <Text style={detalhes.descricao}>
+        M
+        </Text>
+
+        <Text style={detalhes.descricao}>
+        G
+        </Text>
+
+        <Text style={detalhes.descricao}>
+        GG
+        </Text>
+    </View>
+
+    <Text style={detalhes.cor}>
+        COR
+        </Text>
+
+        <View style={detalhes.ladotamanho}>
+        <Text style={detalhes.corroupa}>
+        BRANCO
+        </Text>
+
+        <Text style={detalhes.corroupa}>
+        PRETO
+        </Text>
+
+        <Text style={detalhes.precoroupa}>
+        R$20,99
+        </Text>
+
+        </View>
+
+    <View style={detalhes.ladocarrinho}>
         <Text style={detalhes.addcarrinho}>
         ADICIONE AO CARRINHO
         </Text>
+        <View style={detalhes.favoritar}>
+				<Image source={require("../../assets/heart.png")} style={detalhes.roupa}/>
+			</View>
+     </View>
         </View>
 
 
